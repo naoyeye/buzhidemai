@@ -18,8 +18,11 @@
             text-align: center;
             color: #333;
             font-weight: normal;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
           }
-          .info {
+          .info,
+          footer {
             text-align: center;
             font-size: 12px;
             color: #999;
@@ -28,16 +31,31 @@
           .info span {
             display: block;
           }
+
+          footer {
+            padding-top: 30px;
+          }
+
+          @media (max-width: 600px) {
+            .info {
+              font-size: 18px;
+              line-height: 1.5;
+              color: #666;
+            }
+
+            footer {
+              font-size: 13px;
+            }
+          }
         </style>
     </head>
     <body>
       <section>
         <h1>不值得买</h1>
         <div class="info">
-          <p>虽然没想好用这个域名做什么，不过，先买了再说。</p>
-          <p>(?_?)</p>
-          <span>jiyun</span>
+          <p>虽然没想好买这个用来做什么，不过，先买了再说。</p>
         </div>
       </section>
+      <footer>© buzhidemai.com 2016  by <a href="http://han.im">han.im</a></footer>
     </body>
 </html>
